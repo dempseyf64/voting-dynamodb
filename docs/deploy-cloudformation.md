@@ -51,7 +51,7 @@ The instance is created after the table is active. From the root of your clone:
 aws cloudformation create-stack \
   --stack-name voting-dynamodb \
   --template-body file://deploy/cloudformation.yaml \
-  --parameters ParameterKey=GitHubUsername,ParameterValue=YOUR_GITHUB_USERNAME
+  --parameters ParameterKey=GitHubUsername,ParameterValue=dempseyf64
 ```
 
 Replace `YOUR_GITHUB_USERNAME` with your GitHub username.
